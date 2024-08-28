@@ -1,0 +1,12 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+//void Update()와 차이점 : 정해진시간에 따라 주기적으로 호출되는 메서드. 컴퓨터 성능에 영향 x
+private void FixedUpdate() 
+    {
+        Move();
+        Jump();
+
+    }
